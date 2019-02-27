@@ -1,0 +1,24 @@
+#cabecera {
+    text-align: center
+}
+#titulo {
+    margin: 0
+}
+
+#menu {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.botonesMenu {
+    text-decoration: none;
+    background-color: #EAEAEA;
+    padding: 8px;
+    border-bottom: 2px solid rgb(117, 85, 85);
+    color: black
+}
+.botonesMenu:hover {
+    background-color: #BABABA;
+}
+

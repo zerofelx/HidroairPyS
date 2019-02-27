@@ -2,7 +2,7 @@
     text-align: center
 }
 #titulo {
-    margin: 0
+    margin: 15px 0 0 0;
 }
 
 #menu {
@@ -22,3 +22,10 @@
     background-color: #BABABA;
 }
 
+#footer {
+    background: #12223d;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between
+}

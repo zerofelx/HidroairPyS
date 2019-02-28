@@ -7,14 +7,16 @@
 
 #menu {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    height: 10vh;
+    vertical-align: -webkit-baseline-middle
 }
 
 .botonesMenu {
     text-decoration: none;
     background-color: #EAEAEA;
-    padding: 8px;
+    padding: 10px 4%;
     border-bottom: 2px solid rgb(117, 85, 85);
     color: black
 }
@@ -24,8 +26,11 @@
 
 #footer {
     background: #12223d;
-    padding: 5px;
+    padding: 5px 0;
     color: white;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }

@@ -10,7 +10,6 @@
     width: 100%;
     margin: 0 auto;
     height: 10vh;
-    vertical-align: -webkit-baseline-middle
 }
 
 .botonesMenu {
@@ -22,6 +21,9 @@
 }
 .botonesMenu:hover {
     background-color: #BABABA;
+}
+.botonesMenu:active {
+    background-color: #EAEAEA
 }
 
 @media (min-width: 700px) {

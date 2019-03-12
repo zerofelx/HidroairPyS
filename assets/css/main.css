@@ -3,6 +3,13 @@ body {
     margin: 0
 }
 
+@media (max-width: 1300px) {
+    #menu {
+        display: none
+    }
+
+}
+
 .subtitulo {
     color: crimson;
     margin: 0;

@@ -4,6 +4,10 @@
 #titulo {
     margin: 15px 0 0 0;
 }
+.titulo {
+    text-decoration: none;
+    color: black
+}
 
 #menu {
     text-align: center;
@@ -26,7 +30,7 @@
     background-color: #EAEAEA
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     #footer {
         background: #12223d;
         padding: 5px 0;
@@ -39,7 +43,7 @@
     }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 999px) {
     #footer {
         background: #12223d;
         padding: 5px 0;

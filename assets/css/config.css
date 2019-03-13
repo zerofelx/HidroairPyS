@@ -85,3 +85,13 @@
     
 }
 
+#footerC {
+    background: #12223d;
+    padding: 5px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}

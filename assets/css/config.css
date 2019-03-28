@@ -3,7 +3,7 @@
 }
 
 #titulo:hover {
-    color: rgb(92, 92, 92)
+    color: #5c5c5c
 }
 
 .titulo {
@@ -22,7 +22,7 @@
     text-decoration: none;
     background-color: #EAEAEA;
     padding: 10px 4%;
-    border-bottom: 2px solid rgb(85, 113, 117);
+    border-bottom: 2px solid #557175;
     color: black
 }
 .botonesMenu:hover {

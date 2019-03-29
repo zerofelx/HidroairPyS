@@ -20,10 +20,11 @@
 
 .botonesMenu {
     text-decoration: none;
-    background-color: #EAEAEA;
+    background-color: white;
     padding: 10px 4%;
     border-bottom: 2px solid #557175;
-    color: black
+    color: black;
+
 }
 .botonesMenu:hover {
     background-color: #BABABA;

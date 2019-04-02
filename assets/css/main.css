@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 .degradado {
-    padding: 15px 0 0 0;
+    padding: 10vh 0 0 0;
     background: -webkit-linear-gradient(#81e4e2, white); /* Para Safari 5.1 al 6.0 */
     background: -o-linear-gradient(#81e4e2, white); /* Para Opera 11.1 al 12.0 */
     background: -moz-linear-gradient(#81e4e2, white); /* Para Firefox 3.6 al 15 */
@@ -12,15 +12,24 @@ body {
 }
 
 @media (max-width: 1300px) {
+    .botones {
+        display: none !important
+    }
     #menu {
-        display: none
+        justify-content: center !important
+    }
+    .botonCelular {
+        display: block !important;
+    }
+    .logo {
+        display: none;
     }
 
-    .subtitulo2 {
+    /* .subtitulo2 {
         color: #0a4d4b;
         padding: 20px 0 5px 0;
         margin: 0
-    }
+    } */
 
 }
 
@@ -61,3 +70,6 @@ body {
     text-align: center
 }
 
+#cabecera {
+    display: none
+}

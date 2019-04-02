@@ -8,14 +8,28 @@
 
 .titulo {
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 #menu {
-    text-align: center;
+    /* text-align: center;
     width: 100%;
     margin: 0 auto;
-    height: 10vh;
+    height: 10vh; */
+
+    background: #12223D; 
+    display: flex; 
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.tituloMenu {
+    color: white; 
+    margin: 0;
+    font-size: 25px;
+    margin: 10px
 }
 
 .botonesMenu {
@@ -92,4 +106,43 @@
     position: absolute;
     bottom: 0;
     width: 100%
+}
+
+.buttons {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 15px 5px;
+    background: #25457c;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.buttons:hover {
+    background: #192e53
+}
+
+.buttons:active {
+    background: #223e6e
+
+}
+.buttonsC {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 15px 5px;
+    background: #f7ba12;
+    vertical-align: -webkit-baseline-middle;
+    border-radius: 10px;
+}
+
+.buttonsC:hover {
+    background: #192e53
+}
+
+.buttonsC:active {
+    background: #223e6e
+}
+
+.botones {
+    padding: 15px 0;
 }
